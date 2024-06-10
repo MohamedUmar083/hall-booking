@@ -12,8 +12,8 @@ import {
 const router = express.Router();
 
 router.post("/createroom", createRoom);
-router.get("/show", showRooms);
-router.get("/showbooked", bookedRooms);
+router.get("/showroom", showRooms);
+router.get("/showbookedroom", bookedRooms);
 router.post("/bookroom", bookRoom);
 router.get("/roomdetails", roomDetails);
 router.get("/customerdetails", cutomerDetails);
